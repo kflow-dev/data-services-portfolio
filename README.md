@@ -1,6 +1,8 @@
 # Data Services Portfolio
 
-This portfolio contains several independent data-service projects:
+A structured portfolio of production-ready data-services, each maintained in its own repository.
+
+This portfolio contains:
 
 - Artificial Data Generation  
 - Data Validation  
@@ -9,4 +11,3 @@ This portfolio contains several independent data-service projects:
 - Time Series Forecasting  
 - Explainability & Correlation Analysis  
 
-Each project lives in its own GitHub repository and is included here as a Git submodule.
