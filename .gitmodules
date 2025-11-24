@@ -1,0 +1,18 @@
+[submodule "projects/artificial-data-generation"]
+	path = projects/artificial-data-generation
+	url = https://github.com/kflow-dev/artificial-data-generation
+[submodule "projects/data-validation"]
+	path = projects/data-validation
+	url = https://github.com/kflow-dev/data-validation
+[submodule "projects/drift-monitoring"]
+	path = projects/drift-monitoring
+	url = https://github.com/kflow-dev/drift-monitoring
+[submodule "projects/multimodal-analytics"]
+	path = projects/multimodal-analytics
+	url = https://github.com/kflow-dev/multimodal-analytics
+[submodule "projects/time-series-forecasting"]
+	path = projects/time-series-forecasting
+	url = https://github.com/kflow-dev/time-series-forecasting
+[submodule "projects/explainability-correlation"]
+	path = projects/explainability-correlation
+	url = https://github.com/kflow-dev/explainability-correlation
