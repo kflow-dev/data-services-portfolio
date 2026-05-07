@@ -1,5 +1,7 @@
 # Data Science Services Projects
 
+Version: v01: 2026-05-08 
+
 List of AI/ML/causal data science projects implemented.
 
 ## 01: INSE
@@ -21,7 +23,7 @@ List of AI/ML/causal data science projects implemented.
 
 ## 04: SCINLP:
 
-- (++) SCINLP/ProtegeSemanticEngine - Ontology, reasoning, SPARQL, knowledge graphs/LLMs, Text2Model, Text2Onto
+- (++) SCINLP/ProtegeSemanticEngine - Ontology, reasoning, SPARQL, knowledge graphs/LLMs, Text2Model, Text2Onto, Karma.
 
 ## 05: SCIKRR:
 
@@ -63,7 +65,7 @@ List of AI/ML/causal data science projects implemented.
 
 - (+++) Personalized beer product SKU recommender for B2B, including geo-location shop scraping in Google Place API
 
-- (++) Citizen Data Lab: managed cloud data science lab setup for Gemeente Bold/Rotterdam
+- (++) Citizen Data Lab: managed cloud data science lab setup for Gemeente Bold
 
 - (++) MyMedicine - mobile app for travelling abroad with medicine (IBM Watson + BeInformed + IBM cloud APIs + H100 GPU training)
 
