@@ -1,16 +1,17 @@
 # Data Science Services Projects
 
-Version: v01: 2026-05-08 
+Version: v02: 2026-05-28 / v01: 2026-05-08 
 
-List of AI/ML/causal data science projects implemented.
+List of AI/ML/GenAI/IR/RL/causal/bayesian data science projects implemented.
 
 ## 01: INSE
 
-- (PORTALS) INSE/MyCallTechPhonebook - a personalized tech companies phonebook for scraping, discovery and arranging maintenance calls for hardware/IoT devices and domestic services
+-  (++) (RECSYS) INSE/HealthyDietRecommender - Personalized medical regime expert system and healthy diet recommender, calory counter, health objectives monitoring, RL, graph
 
 - (+) (PORTALS) INSE/RobotServicesCatalog - Robotic product catalogue - webshop of services for sales of robotics products (drones, cleaning robots) for small offices and individual homes
 
--  (++) (RECSYS) INSE/DieteRecommender - Medical regime, RL, graph
+- (+) (PORTALS) INSE/MyCallTechPhonebook - a personalized tech companies phonebook for scraping, discovery and arranging maintenance calls for hardware/IoT devices and domestic services
+
 
 ## 02: PAP
 
@@ -131,7 +132,79 @@ ai-portfolio-project/
 │
 ├── CONTRIBUTING.md
 ├── LICENSE
-└── README.md                     # This is the main entry point for recruiters & collaborators
+└── README.md                     # This is the main entry po.
 ```
+
+## DETAILS
+
+A full RAG + ML product portfolio: ~25 data-science apps spanning recommenders, search&scrape,
+chatbots, forecasters, agents and optimizers — wrapped in a mobile-friendly portfolio
+dashboard with a self-managed VPS CI/CD pipeline.
+
+## Architecture
+
+```text
+                       Internet (mobile / desktop)
+                                  |
+                                  v
+                  +------------------------------+
+                  |  nginx  (TLS, gzip, routing) |
+                  +--------------+---------------+
+         +------------------------+--------------------------+
+         v                        v                          v
+   /  (dashboard)           /app/<slug>/             /api/  (edge)
+   Next.js    		   Streamlit per-app          Cloud
+   :7000 (frontend)        :3000 (backend)          Edge Functions
+                                                  + Postgres + pgvector
+```
+
+- Frontend  : React (TanStack Start) on **:7000**
+- Backend   : Streamlit Python apps on **:3000**
+- Reverse proxy: nginx on **:80 / :443** (see `nginx/portfolio.conf`)
+- Data      : Postgres + pgvector (running in Cloud) for RAG
+- AI        : AI Gateway (`google/gemini-2.5-flash`, `openai/text-embedding-3-small`)
+
+## Live demos in the dashboard
+
+| App | What it does | Stack |
+| --- | --- | --- |
+| HotNews4U       | LLM-ranked news recommender              | Gemini Flash JSON-mode |
+| Multi-media RAG | Ingest text -> embed -> grounded Q&A     | pgvector + embeddings + LLM |
+| PAPIE           | Streaming personal-assistant chatbot     | SSE chat completions |
+
+The other apps are listed in the dashboard as scaffolds — each has a folder under
+`apps/` with a CLI entry point, a Streamlit UI, and a Dockerfile.
+
+## Repo layout
+
+```text
+.
+├── src/                       # TanStack Start frontend (dashboard + demos)
+├── supabase/functions/        # Edge functions
+├── supabase/migrations/       # pgvector schema + match function
+├── apps/                      # ~25 Streamlit/CLI apps
+├── nginx/portfolio.conf       # reverse proxy
+├── docker-compose.yml         # local + VPS stack
+├── .github/workflows/         # ci.yml + deploy.yml
+└── README.md
+```
+
+## Run locally
+
+```bash
+bun install && bun run dev -- --port 7000
+python apps/hotnews4u/cli.py recommend --interests "AI, startups"
+streamlit run apps/hotnews4u/streamlit_app.py --server.port 3000
+docker compose up --build   # full stack behind nginx
+```
+
+## Deploy to a self-managed VPS (Ubuntu 22.04)
+
+1. Provision the VPS, install Docker + Compose, open 80/443.
+2. Add GitHub secrets: `VPS_HOST`, `VPS_USER`, `VPS_SSH_KEY`, `LOVABLE_API_KEY`,
+   `SUPABASE_URL`, `SUPABASE_ANON_KEY`, `SUPABASE_PROJECT_ID`.
+3. Push to `main` → `.github/workflows/deploy.yml` rsyncs the repo and runs
+   `docker compose up -d --build` on the VPS.
+4. Point DNS at the VPS, then `certbot --nginx` for TLS.
 
 # END

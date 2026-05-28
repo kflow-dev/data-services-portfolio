@@ -1,0 +1,38 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  frontend:
+    runs-on: ubuntu-22.04
+    steps:
+      - uses: actions/checkout@v4
+      - uses: oven-sh/setup-bun@v2
+        with:
+          bun-version: latest
+      - run: bun install --frozen-lockfile
+      - run: bun run lint
+      - run: bun run build
+
+  python:
+    runs-on: ubuntu-22.04
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install -r apps/requirements.txt
+      - name: Syntax-check Streamlit apps
+        run: |
+          for f in apps/*/streamlit_app.py; do
+            python -c "import ast,sys; ast.parse(open(sys.argv[1]).read())" "$f" || exit 1
+          done
+      - name: Help for every CLI
+        run: |
+          for f in apps/*/cli.py; do
+            python "$f" --help > /dev/null || true
+          done
