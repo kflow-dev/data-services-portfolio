@@ -1,0 +1,26 @@
+beverage_id,name,type,flavor,sweetness,coldness_preferred,caffeine,calories,occasion,suitability_score
+B001,Coffee,Hot,Coffee,Medium,Hot,High,15,Morning,8.5
+B002,Tea,Hot,Green Tea,Low,Hot,Low,5,Anytime,7.8
+B003,Energy Drink,Cold,Blue Raspberry,High,Cold,High,250,Workout,9.0
+B004,Water,Cold,Plain,Zero,Cold,Zero,0,Anytime,10.0
+B005,Orange Juice,Cold,Orange,High,Cold,Zero,110,Breakfast,7.5
+B006,Cola,Cold,Cola,High,Cold,Medium,140,Social,6.8
+B007,Iced Tea,Cold,Black Tea,Low,Cold,Zero,5,Anytime,8.0
+B008,Hot Chocolate,Hot,Chocolate,High,Hot,Zero,220,Cozy Evenings,7.2
+B009,Smoothie,Cold,Mixed Berry,Medium,Cold,Zero,180,Breakfast,8.3
+B010,Sparkling Water,Cold,Plain,Zero,Cold,Zero,0,Anytime,9.0
+B011,Mocha,Cold,Coffee-Chocolate,High,Cold,High,320,Treat,7.9
+B012,Matcha Latte,Hot,Matcha,Medium,Hot,Medium,120,Morning Focus,8.2
+B013,Lemonade,Cold,Lemon,High,Cold,Zero,120,Social,7.0
+B014,Ginger Ale,Cold,Ginger,Medium,Cold,Zero,110,Stomach Comfort,6.5
+B015,Protein Shake,Cold,Vanilla,Medium,Cold,Low,200,Post-Workout,9.2
+B016,Wine,Room Red Wine,Red Grape,Low,Room,Zero,125,Dinner,8.0
+B017,Wine,White,White Grape,Low,Chilled,Zero,120,Dinner,8.2
+B018,Craft Beer,Cold,IPA,Low,Cold,Medium,210,Social,7.5
+B019,Craft Beer,Cold,Lager,Low,Cold,Medium,150,Social,7.8
+B020,Sparkling Juice,Cold,Mixed Berry,Medium,Cold,Zero,100,Social,6.8
+B021,Apple Juice,Cold,Apple,High,Cold,Zero,110,Breakfast,7.2
+B022,Cranberry Juice,Cold,Cranberry,Medium,Cold,Zero,130,Health,7.5
+B023,Coconut Water,Cold,Coconut,Low,Cold,Zero,45,Hydration,9.0
+B024,Kombucha,Cold,Ginger-Lemon,Low,Cold,Zero,30,Health,8.0
+B025,Chocolate Milk,Cold,Chocolate,High,Cold,Zero,280,Post-Workout,7.8

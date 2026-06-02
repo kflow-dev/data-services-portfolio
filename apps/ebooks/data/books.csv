@@ -1,0 +1,16 @@
+book_id,title,author,genre,publication_year,rating,page_count,price,themes,length_category
+BK001,The Quantum Leap,Dr. Sarah Chen,Science Fiction,2024,4.7,450,29.99,technology;time-travel;parallel-universes,Long
+BK002,Code of Silence,James Morrison,Mystery,2023,4.5,380,24.99,crime;investigation;corruption,Medium
+BK003,Love in the Time of AI,Emily Watson,Romance,2024,4.3,320,19.99,love;technology;future society,Medium
+BK004,The Last Algorithm,Michael Zhang,Techno-Thriller,2024,4.8,520,32.99,AI;ethics;corporate-conspiracy,Long
+BK005,Whispers of the Past,Lisa Thompson,Historical Fiction,2023,4.6,410,27.99,world-war-2;family-secret;romance,Long
+BK006,The Mind Hacker,Dr. Alex Rivera,Sci-Fi Thriller,2024,4.7,480,30.99,neurotechnology;mind-control;resistance,Long
+BK007,Brewing Revolution,Carlos Martinez,Non-Fiction,2023,4.4,280,22.99,coffee-culture;entrepreneurship;sustainability,Medium
+BK008,The Silent Observer,Anna Petrova,Mystery,2024,4.5,360,25.99,surveillance;privacy;journalism,Medium
+BK009,Stars Above,Robert Kim,Space Opera,2023,4.6,550,34.99,space-travel;alien-contact;war,Long
+BK010,The Coding Master,Jennifer Park,Self-Help,2024,4.3,240,19.99,programming;career;productivity,Short
+BK011,Echoes of Tomorrow,David Lee,Science Fiction,2024,4.8,490,31.99,climate-change;future-societies;hope,Long
+BK012,The Hidden Pattern,Sophie Martin,Thriller,2023,4.4,390,26.99,data-privacy;conspiracy;justice,Medium
+BK013,Garden of Dreams,Maria Santos,Poetry,2024,4.5,180,16.99,nature;reflection;healing,Short
+BK014,The Startup Journey,Raj Patel,Business,2023,4.2,300,24.99,entrepreneurship;venture-capital;leadership,Medium
+BK015,Beyond the Edge,Chris Anderson,Adventure,2024,4.6,420,28.99,exploration;survival;personal-growth,Long

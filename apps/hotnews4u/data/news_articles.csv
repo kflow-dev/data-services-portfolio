@@ -1,0 +1,34 @@
+# Synthetic news articles dataset with realistic distribution
+# Generated for HotNews4U personalization demo
+# Columns: article_id, title, category, published_date, sentiment_score, engagement_score, source, read_time, word_count, url
+article_id,title,category,published_date,sentiment_score,engagement_score,source,read_time,word_count,url
+A001,"Apple announces M5 chip with on-device LLM acceleration at 120 TOPS",tech,2026-05-15,0.75,8.5,techcrunch,4,1250,https://techcrunch.com/apple-m5-ai
+A002,"ECB cuts interest rates by 25bps to 3.25% citing inflation concerns",finance,2026-05-14,0.30,6.2,reuters,5,1400,https://reuters.com/ecb-rate-cut
+A003,"New transformer model 'OmniLM-7B' beats Gemini 2.5 on MMLU with 78% accuracy",ai,2026-05-13,0.82,9.1,wired,6,1800,https://wired.com/omnilm-breakthrough
+A004,"Real Madrid wins Club World Cup 3-1 in extra time thriller vs Man City",sports,2026-05-12,0.68,7.8,espn,3,900,https://espn.com/real-madrid-cwc
+A005,"EU AI Act compliance deadline extended to 2027 Q2, industry welcomes relief",policy,2026-05-11,0.15,5.5,euronews,5,1350,https://euronews.com/ai-act-extension
+A006,"Tesla unveils 4680 battery tech promising 1000-mile range at $89/kWh",tech,2026-05-10,0.72,8.9,techcrunch,5,1500,https://techcrunch.com/tesla-4680-battery
+A007,"Global markets rally as US inflation drops to 2.1%, Fed signals rate cuts",finance,2026-05-09,0.58,7.1,bloomberg,4,1200,https://bloomberg.com/markets-rally
+A008,"OpenAI releases GPT-5 with 1M context window and advanced reasoning capabilities",ai,2026-05-08,0.88,9.8,venturebeat,7,2100,https://venturebeat.com/gpt5-release
+A009,"Manchester City defeats Arsenal 2-1 in Champions League final in Munich",sports,2026-05-07,0.65,8.2,bbc,4,1100,https://bbc.com/chelsea-ufc
+A010,"New carbon capture facility in Norway removes 1M tons CO2 annually",climate,2026-05-06,0.70,6.5,theverge,5,1450,https://theverge.com/norway-carbon
+A011,"Netflix announces 20% price increase for Premium tier starting June",tech,2026-05-05,0.12,7.5,variety,3,850,https://variety.com/netflix-price
+A012,"Bitcoin surges past $100,000 for first time amid institutional adoption",finance,2026-05-04,0.92,9.5,coindesk,4,1300,https://coindesk.com/btc-100k
+A013,"Google DeepMind achieves breakthrough in protein folding with 95% accuracy",ai,2026-05-03,0.85,8.7,nature,6,1900,https://nature.com/deepmind-protein
+A014,"US Open tennis: Djokovic advances to semifinals after 5-set thriller",sports,2026-05-02,0.55,7.3,tennis.com,3,950,https://tennis.com/us-open
+A015,"UN climate summit reaches historic agreement to phase out 50% fossil fuels by 2035",climate,2026-05-01,0.45,6.8,reuters,6,1600,https://reuters.com/climate-summit
+A016,"Microsoft Azure expands data center presence in Asia with $5B investment",tech,2026-04-30,0.50,6.0,zdnet,4,1150,https://zdnet.com/azure-asia
+A017,"Federal Reserve signals potential 75bps rate cuts in H2 2026",finance,2026-04-29,0.48,6.8,wsj,5,1400,https://wsj.com/fed-rates
+A018,"Meta launches Quest 4 VR headset with eye-tracking at $499",tech,2026-04-28,0.62,7.2,arstechnica,4,1200,https://arstechnica.com/meta-quest4
+A019,"NBA playoffs: Lakers eliminate Warriors in game 7 epic comeback",sports,2026-04-27,0.72,8.5,nba.com,4,1100,https://nba.com/lakers-warriors
+A020,"Antarctic ice shelf shows unexpected stability, sea level rise fears ease",climate,2026-04-26,0.40,5.9,science.org,5,1500,https://science.org/antarctica
+A021,"Anthropic releases Claude 3.5 with improved coding and multimodal capabilities",ai,2026-04-25,0.78,8.8,theinformation,6,1850,https://theinformation.com/claude35
+A022,"Amazon announces same-day delivery in 50 new cities, expands Prime",tech,2026-04-24,0.55,6.5,businessinsider,3,900,https://businessinsider.com/amazon-delivery
+A023,"Goldman Sachs raises 2026 GDP forecast to 3.2%, tech sector leads growth",finance,2026-04-23,0.60,7.0,ft,4,1250,https://ft.com/goldman-forecast
+A024,"Serena Williams announces comeback tournament at Wimbledon 2026",sports,2026-04-22,0.82,9.2,espn,3,850,https://espn.com/serena-comeback
+A025,"Solar panel efficiency reaches new record at 47% with perovskite tandem cells",climate,2026-04-21,0.85,8.1,pvmagazine,5,1400,https://pvmagazine.com/solar-record
+A026,"Sam Altman discusses AGI timeline at Web Summit, predicts 2029",ai,2026-04-20,0.52,7.8,techcrunch,5,1550,https://techcrunch.com/altman-agi
+A027,"SpaceX successfully launches 100th Starlink mission, constellation reaches 6000 satellites",tech,2026-04-19,0.75,8.3,spacenews,4,1150,https://spacenews.com/starlink-100
+A028,"European housing market shows signs of recovery with 5% price increase",finance,2026-04-18,0.38,5.8,economist,5,1350,https://economist.com/eu-housing
+A029,"Tour de France route unveiled with 4 mountain stages and Alpine finale",sports,2026-04-17,0.65,7.0,cyclingweekly,4,1050,https://cyclingweekly.com/tour-route
+A030,"Ocean plastic cleanup project removes 100,000 tons, expands to Pacific",climate,2026-04-16,0.88,9.0,oceanconservancy,5,1450,https://oceanconservancy.org/cleanup
