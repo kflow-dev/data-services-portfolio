@@ -1,0 +1,34 @@
+# Synthetic news articles dataset
+# Generated for data science portfolio apps
+# Columns: article_id, title, category, published_date, sentiment_score, engagement_score, source
+article_id,title,category,published_date,sentiment_score,engagement_score,source
+A001,"Apple announces M5 chip with on-device LLM acceleration",tech,2026-05-15,0.75,8.5,techcrunch
+A002,"ECB cuts interest rates by 25bps",finance,2026-05-14,0.30,6.2,reuters
+A003,"New transformer model beats Gemini 2.5 on MMLU benchmark",ai,2026-05-13,0.82,9.1,wired
+A004,"Real Madrid wins Club World Cup 3-1 in extra time",sports,2026-05-12,0.68,7.8,espn
+A005,"EU AI Act compliance deadline extended by 6 months",policy,2026-05-11,0.15,5.5,euronews
+A006,"Tesla unveils new battery tech promising 1000-mile range",tech,2026-05-10,0.72,8.9,techcrunch
+A007,"Global markets rally on inflation data showing cooling trend",finance,2026-05-09,0.58,7.1,bloomberg
+A008,"OpenAI releases GPT-5 with advanced reasoning capabilities",ai,2026-05-08,0.88,9.8,venturebeat
+A009,"Manchester City defeats Arsenal in Champions League final",sports,2026-05-07,0.65,8.2,bbc
+A010,"New carbon capture facility opens in Norway",climate,2026-05-06,0.70,6.5,theverge
+A011,"Netflix announces price increase for premium tier",tech,2026-05-05,0.12,7.5,variety
+A012,"Bitcoin surges past $100,000 for first time",finance,2026-05-04,0.92,9.5,coindesk
+A013,"Google DeepMind achieves breakthrough in protein folding",ai,2026-05-03,0.85,8.7,nature
+A014,"US Open tennis: Djokovic advances to semifinals",sports,2026-05-02,0.55,7.3,tennis.com
+A015,"UN climate summit reaches historic agreement on emissions",climate,2026-05-01,0.45,6.8,reuters
+A016,"Microsoft Azure expands data center presence in Asia",tech,2026-04-30,0.50,6.0,zdnet
+A017,"Federal Reserve signals potential rate cuts in Q3",finance,2026-04-29,0.48,6.8,wsj
+A018,"Meta launches new VR headset with eye-tracking",tech,2026-04-28,0.62,7.2,arstechnica
+A019,"NBA playoffs: Lakers eliminate Warriors in game 7",sports,2026-04-27,0.72,8.5,nba.com
+A020,"Antarctic ice shelf shows unexpected stability",climate,2026-04-26,0.40,5.9,science.org
+A021,"Anthropic releases Claude 3.5 with improved coding abilities",ai,2026-04-25,0.78,8.8,theinformation
+A022,"Amazon announces same-day delivery in 50 new cities",tech,2026-04-24,0.55,6.5,businessinsider
+A023,"Goldman Sachs raises 2026 GDP forecast to 3.2%",finance,2026-04-23,0.60,7.0,ft
+A024,"Serena Williams announces comeback tournament",sports,2026-04-22,0.82,9.2,espn
+A025,"Solar panel efficiency reaches new record at 47%",climate,2026-04-21,0.85,8.1,pvmagazine
+A026,"Sam Altman discusses AGI timeline at tech conference",ai,2026-04-20,0.52,7.8,techcrunch
+A027,"SpaceX successfully launches 100th Starlink mission",tech,2026-04-19,0.75,8.3,spacenews
+A028,"European housing market shows signs of recovery",finance,2026-04-18,0.38,5.8,economist
+A029,"Tour de France route unveiled with mountain challenges",sports,2026-04-17,0.65,7.0,cyclingweekly
+A030,"Ocean plastic cleanup project removes 100,000 tons",climate,2026-04-16,0.88,9.0,oceanconservancy

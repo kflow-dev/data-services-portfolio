@@ -1,0 +1,121 @@
+drink_id,name,type,style,abv,bitterness,sweetness,carbonation,strength,seasonality,origin
+D001,Pale ale 1,beer,pale_ale,6.4,95.6,46.6,3.5,0.53,any,belgium
+D002,Ipa 2,beer,ipa,3.9,51.3,26.7,2.4,0.32,winter,uk
+D003,Stout 3,beer,stout,11.7,84.9,20.6,2.5,0.98,any,canada
+D004,Lager 4,beer,lager,8.5,5.2,11.2,3.3,0.71,summer,canada
+D005,Wheat 5,beer,wheat,11.8,13.1,14.5,3.5,0.98,summer,ireland
+D006,Sour 6,beer,sour,8.3,6.6,40.4,2.4,0.69,any,ireland
+D007,Porter 7,beer,porter,11.5,60.7,29.3,2.0,0.96,any,canada
+D008,Amber ale 8,beer,amber_ale,7.0,9.3,34.8,2.1,0.58,fall,ireland
+D009,Pilsner 9,beer,pilsner,4.6,31.4,31.3,2.5,0.39,winter,netherlands
+D010,Brown ale 10,beer,brown_ale,11.7,32.1,57.0,4.2,0.98,winter,italy
+D011,Red ale 11,beer,red_ale,8.1,23.2,58.1,4.1,0.68,spring,uk
+D012,Imperial stout 12,beer,imperial_stout,8.3,38.8,40.4,2.7,0.69,any,netherlands
+D013,Pale ale 13,beer,pale_ale,3.7,98.8,48.6,2.5,0.31,any,mexico
+D014,Ipa 14,beer,ipa,4.8,74.0,49.5,3.5,0.4,fall,australia
+D015,Stout 15,beer,stout,4.0,87.7,41.2,2.8,0.34,any,spain
+D016,Lager 16,beer,lager,9.0,28.3,39.6,2.7,0.75,winter,belgium
+D017,Wheat 17,beer,wheat,4.1,30.0,48.0,3.4,0.34,spring,spain
+D018,Sour 18,beer,sour,3.4,29.9,15.5,3.1,0.28,any,spain
+D019,Porter 19,beer,porter,7.3,60.7,44.8,2.3,0.61,winter,mexico
+D020,Amber ale 20,beer,amber_ale,4.8,38.0,39.9,3.7,0.4,fall,australia
+D021,Pilsner 21,beer,pilsner,10.3,27.2,53.6,4.0,0.86,any,mexico
+D022,Brown ale 22,beer,brown_ale,5.9,9.3,27.8,4.3,0.49,any,mexico
+D023,Red ale 23,beer,red_ale,6.8,33.6,53.0,2.0,0.57,summer,japan
+D024,Imperial stout 24,beer,imperial_stout,7.4,29.2,23.5,2.6,0.61,any,italy
+D025,Pale ale 25,beer,pale_ale,9.3,42.7,58.6,4.4,0.78,any,germany
+D026,Ipa 26,beer,ipa,9.4,23.3,59.9,2.7,0.78,fall,canada
+D027,Stout 27,beer,stout,3.5,35.1,55.4,2.6,0.29,any,canada
+D028,Lager 28,beer,lager,7.0,24.4,39.6,2.2,0.59,summer,usa
+D029,Wheat 29,beer,wheat,9.6,17.9,41.6,3.6,0.8,summer,usa
+D030,Sour 30,beer,sour,4.4,22.8,44.8,4.1,0.36,summer,ireland
+D031,Porter 31,beer,porter,3.1,56.1,21.3,3.6,0.26,any,usa
+D032,Amber ale 32,beer,amber_ale,6.6,23.1,51.9,3.7,0.55,spring,germany
+D033,Pilsner 33,beer,pilsner,11.3,35.7,22.9,3.6,0.94,spring,japan
+D034,Brown ale 34,beer,brown_ale,7.6,14.1,59.8,4.4,0.64,winter,mexico
+D035,Red ale 35,beer,red_ale,4.7,14.8,45.0,4.1,0.39,fall,france
+D036,Imperial stout 36,beer,imperial_stout,10.0,27.5,14.2,2.4,0.83,fall,ireland
+D037,Pale ale 37,beer,pale_ale,8.2,43.5,57.0,4.4,0.69,any,germany
+D038,Ipa 38,beer,ipa,7.4,50.4,59.7,2.4,0.61,any,uk
+D039,Stout 39,beer,stout,4.6,43.0,47.2,3.8,0.38,summer,canada
+D040,Lager 40,beer,lager,7.6,27.3,22.5,3.5,0.63,fall,belgium
+D041,Wheat 41,beer,wheat,11.0,27.1,49.7,3.3,0.92,winter,usa
+D042,Sour 42,beer,sour,4.8,30.3,24.0,2.1,0.4,winter,usa
+D043,Porter 43,beer,porter,12.0,52.3,24.0,4.2,1.0,spring,uk
+D044,Amber ale 44,beer,amber_ale,11.4,20.0,58.3,4.4,0.95,fall,netherlands
+D045,Pilsner 45,beer,pilsner,6.5,34.8,25.8,2.4,0.54,winter,france
+D046,Brown ale 46,beer,brown_ale,9.3,25.0,14.9,3.5,0.77,fall,germany
+D047,Red ale 47,beer,red_ale,5.3,15.3,26.1,4.1,0.44,any,france
+D048,Imperial stout 48,beer,imperial_stout,6.2,15.3,50.5,4.0,0.52,fall,netherlands
+D049,Pale ale 49,beer,pale_ale,3.7,10.5,41.4,2.5,0.31,any,canada
+D050,Ipa 50,beer,ipa,11.0,12.5,38.9,3.1,0.91,winter,belgium
+D051,Red Wine 51,wine,red,11.7,5.7,16.3,0.6,0.73,any,france
+D052,White Wine 52,wine,white,10.0,1.5,1.2,0.5,0.63,any,uk
+D053,Rose Wine 53,wine,rose,12.2,1.1,23.1,0.6,0.76,any,ireland
+D054,Sparkling Wine 54,wine,sparkling,14.7,2.1,5.8,2.0,0.92,any,belgium
+D055,Dessert Wine 55,wine,dessert,13.1,4.9,52.2,0.5,0.82,any,belgium
+D056,Fortified Wine 56,wine,fortified,14.4,2.2,22.6,0.1,0.9,any,uk
+D057,Red Wine 57,wine,red,9.5,8.6,2.4,0.7,0.59,any,usa
+D058,White Wine 58,wine,white,9.4,1.3,4.7,0.5,0.59,any,japan
+D059,Rose Wine 59,wine,rose,13.3,4.8,8.4,0.7,0.83,any,uk
+D060,Sparkling Wine 60,wine,sparkling,12.9,1.2,12.6,2.0,0.81,any,belgium
+D061,Dessert Wine 61,wine,dessert,14.1,0.6,5.9,0.0,0.88,any,usa
+D062,Fortified Wine 62,wine,fortified,10.5,0.9,68.7,0.0,0.66,any,australia
+D063,Red Wine 63,wine,red,11.9,3.5,14.2,0.4,0.75,any,spain
+D064,White Wine 64,wine,white,8.4,4.4,28.5,0.3,0.52,any,australia
+D065,Rose Wine 65,wine,rose,13.0,4.3,15.1,0.7,0.81,any,ireland
+D066,Sparkling Wine 66,wine,sparkling,12.9,4.7,28.3,2.0,0.81,any,canada
+D067,Dessert Wine 67,wine,dessert,12.7,2.9,66.1,0.4,0.79,any,canada
+D068,Fortified Wine 68,wine,fortified,9.0,4.1,57.7,0.6,0.56,any,usa
+D069,Red Wine 69,wine,red,15.7,3.9,27.2,0.1,0.98,any,germany
+D070,White Wine 70,wine,white,8.3,1.7,18.5,0.7,0.52,any,netherlands
+D071,Espresso Coffee 71,coffee,espresso,0.0,80.7,1.9,0.8,0.47,any,ireland
+D072,Drip Coffee 72,coffee,drip,0.0,71.6,27.9,0.9,0.32,any,japan
+D073,Cold brew Coffee 73,coffee,cold_brew,0.0,78.2,22.6,0.2,0.75,any,belgium
+D074,French press Coffee 74,coffee,french_press,0.0,89.4,33.0,0.4,0.77,any,italy
+D075,Pour over Coffee 75,coffee,pour_over,0.0,82.0,44.9,0.2,0.71,any,spain
+D076,Aero press Coffee 76,coffee,aero_press,0.0,75.3,8.2,0.9,0.6,any,japan
+D077,Espresso Coffee 77,coffee,espresso,0.0,49.2,71.6,0.4,0.31,any,japan
+D078,Drip Coffee 78,coffee,drip,0.0,80.8,28.4,1.0,0.71,any,ireland
+D079,Cold brew Coffee 79,coffee,cold_brew,0.0,64.4,50.5,0.4,0.48,any,japan
+D080,French press Coffee 80,coffee,french_press,0.0,63.2,17.0,0.9,0.77,any,spain
+D081,Pour over Coffee 81,coffee,pour_over,0.0,35.5,39.6,0.1,0.63,any,uk
+D082,Aero press Coffee 82,coffee,aero_press,0.0,74.2,43.7,0.7,0.88,any,japan
+D083,Espresso Coffee 83,coffee,espresso,0.0,75.7,49.5,0.1,0.35,any,netherlands
+D084,Drip Coffee 84,coffee,drip,0.0,43.4,31.7,0.9,0.39,any,netherlands
+D085,Cold brew Coffee 85,coffee,cold_brew,0.0,35.1,78.9,0.4,0.52,any,ireland
+D086,Black Tea 86,tea,black,0.0,15.7,36.3,0.6,0.28,any,canada
+D087,Green Tea 87,tea,green,0.0,8.8,31.1,0.6,0.31,any,australia
+D088,Oolong Tea 88,tea,oolong,0.0,19.9,17.4,0.3,0.3,any,australia
+D089,White Tea 89,tea,white,0.0,38.3,30.7,0.8,0.47,any,belgium
+D090,Herbal Tea 90,tea,herbal,0.0,31.3,38.5,0.4,0.24,any,italy
+D091,Pu_erh Tea 91,tea,pu_erh,0.0,28.8,17.5,0.8,0.59,any,netherlands
+D092,Matcha Tea 92,tea,matcha,0.0,6.9,35.6,0.5,0.6,any,uk
+D093,Black Tea 93,tea,black,0.0,16.4,27.8,0.1,0.18,any,usa
+D094,Green Tea 94,tea,green,0.0,36.3,18.2,0.6,0.39,any,spain
+D095,Oolong Tea 95,tea,oolong,0.0,7.0,11.2,1.0,0.55,any,canada
+D096,White Tea 96,tea,white,0.0,9.8,13.4,0.2,0.42,any,italy
+D097,Herbal Tea 97,tea,herbal,0.0,20.9,23.3,0.1,0.59,any,mexico
+D098,Pu_erh Tea 98,tea,pu_erh,0.0,36.4,21.4,0.3,0.51,any,canada
+D099,Matcha Tea 99,tea,matcha,0.0,17.2,5.3,0.1,0.57,any,belgium
+D100,Black Tea 100,tea,black,0.0,37.7,24.5,0.4,0.57,any,germany
+D101,Martini 101,cocktail,martini,28.8,16.6,30.6,0.8,0.72,summer,usa
+D102,Old fashioned 102,cocktail,old_fashioned,24.4,40.0,29.6,0.8,0.61,any,netherlands
+D103,Mojito 103,cocktail,mojito,16.6,11.5,16.7,0.0,0.41,fall,france
+D104,Margrita 104,cocktail,margrita,32.3,31.4,47.5,0.9,0.81,fall,uk
+D105,Whiskey sour 105,cocktail,whiskey_sour,33.2,40.3,28.9,0.2,0.83,any,usa
+D106,Gin and tonic 106,cocktail,gin_and_tonic,38.9,34.2,21.4,2.0,0.97,summer,canada
+D107,Negroni 107,cocktail,negroni,21.7,10.9,34.9,0.5,0.54,fall,mexico
+D108,Margarita 108,cocktail,margarita,22.7,42.7,58.4,0.1,0.57,fall,japan
+D109,Daiquiri 109,cocktail,daiquiri,29.7,29.2,31.0,0.8,0.74,summer,germany
+D110,Manhattan 110,cocktail,manhattan,35.1,46.1,40.9,1.0,0.88,summer,germany
+D111,Sparkling water 111,non-alcoholic,sparkling_water,0.0,19.1,54.4,1.3,0.39,any,japan
+D112,Juice 112,non-alcoholic,juice,0.0,15.4,72.7,0.4,0.35,any,belgium
+D113,Kombucha 113,non-alcoholic,kombucha,0.0,20.9,73.7,2.4,0.44,any,usa
+D114,Energy drink 114,non-alcoholic,energy_drink,0.0,7.7,46.7,1.0,0.3,any,netherlands
+D115,Lemonade 115,non-alcoholic,lemonade,0.0,6.3,56.4,0.3,0.31,any,spain
+D116,Iced tea 116,non-alcoholic,iced_tea,0.0,3.8,22.2,0.1,0.36,any,italy
+D117,Smoothie 117,non-alcoholic,smoothie,0.0,20.9,42.9,0.9,0.31,any,germany
+D118,Mocktail 118,non-alcoholic,mocktail,0.0,18.1,27.9,0.8,0.24,any,australia
+D119,Sparkling water 119,non-alcoholic,sparkling_water,0.0,5.3,17.1,1.4,0.28,any,australia
+D120,Juice 120,non-alcoholic,juice,0.0,26.8,20.3,0.3,0.23,any,australia

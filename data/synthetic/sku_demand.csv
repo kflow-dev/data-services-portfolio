@@ -1,0 +1,124 @@
+# Synthetic SKU demand data for hierarchical forecasting
+# Generated for data science portfolio apps
+# Columns: week, department, product_group, sku, quantity_sold, unit_price, discount_pct, revenue, inventory_level, is_holiday
+week,department,product_group,sku,quantity_sold,unit_price,discount_pct,revenue,inventory_level,is_holiday
+1,Electronics,Laptops,LAP-001,45,1299.99,5,55249.58,50,false
+1,Electronics,Laptops,LAP-002,38,899.99,0,34199.56,45,false
+1,Electronics,Tablets,TAB-001,62,599.99,10,33199.38,70,false
+1,Electronics,Tablets,TAB-002,55,449.99,0,24749.45,60,false
+1,Apparel,T-Shirts,TSH-BLK-M,120,29.99,0,3598.80,200,false
+1,Apparel,T-Shirts,TSH-WHT-L,95,29.99,5,2700.08,150,false
+1,Apparel,Jeans,JNS-BLU-32,78,79.99,0,6239.22,100,false
+1,Apparel,Jeans,JNS-BLK-34,65,79.99,10,4649.42,80,false
+1,Home,Kitchen Kits,KIT-001,42,149.99,15,5324.64,60,false
+1,Home,Kitchen Kits,KIT-002,35,199.99,0,6999.65,45,false
+2,Electronics,Laptops,LAP-001,48,1299.99,0,62399.52,47,false
+2,Electronics,Laptops,LAP-002,42,899.99,5,35649.56,42,false
+2,Electronics,Tablets,TAB-001,68,599.99,0,40799.32,65,false
+2,Electronics,Tablets,TAB-002,58,449.99,10,23399.48,55,false
+2,Apparel,T-Shirts,TSH-BLK-M,135,29.99,0,4048.65,185,false
+2,Apparel,T-Shirts,TSH-WHT-L,102,29.99,0,3058.98,140,false
+2,Apparel,Jeans,JNS-BLU-32,82,79.99,5,6179.19,95,false
+2,Apparel,Jeans,JNS-BLK-34,70,79.99,0,5599.30,75,false
+2,Home,Kitchen Kits,KIT-001,45,149.99,0,6749.55,55,false
+2,Home,Kitchen Kits,KIT-002,38,199.99,10,6799.62,40,false
+3,Electronics,Laptops,LAP-001,52,1299.99,10,60199.48,44,false
+3,Electronics,Laptops,LAP-002,45,899.99,0,40499.55,40,false
+3,Electronics,Tablets,TAB-001,72,599.99,5,40799.28,60,false
+3,Electronics,Tablets,TAB-002,62,449.99,0,27899.38,50,false
+3,Apparel,T-Shirts,TSH-BLK-M,142,29.99,5,3998.67,170,false
+3,Apparel,T-Shirts,TSH-WHT-L,108,29.99,0,3238.92,130,false
+3,Apparel,Jeans,JNS-BLU-32,88,79.99,0,7039.12,88,false
+3,Apparel,Jeans,JNS-BLK-34,75,79.99,10,5399.33,70,false
+3,Home,Kitchen Kits,KIT-001,50,149.99,0,7499.50,50,false
+3,Home,Kitchen Kits,KIT-002,42,199.99,0,8399.58,38,false
+4,Electronics,Laptops,LAP-001,55,1299.99,0,71499.45,40,false
+4,Electronics,Laptops,LAP-002,48,899.99,10,38699.52,35,false
+4,Electronics,Tablets,TAB-001,78,599.99,0,46799.22,55,false
+4,Electronics,Tablets,TAB-002,65,449.99,5,27524.47,45,false
+4,Apparel,T-Shirts,TSH-BLK-M,155,29.99,0,4648.45,155,false
+4,Apparel,T-Shirts,TSH-WHT-L,115,29.99,5,3150.93,120,false
+4,Apparel,Jeans,JNS-BLU-32,92,79.99,5,6859.09,82,false
+4,Apparel,Jeans,JNS-BLK-34,80,79.99,0,6399.20,65,false
+4,Home,Kitchen Kits,KIT-001,55,149.99,10,7424.48,45,false
+4,Home,Kitchen Kits,KIT-002,45,199.99,0,8999.55,35,false
+5,Electronics,Laptops,LAP-001,60,1299.99,5,73249.40,35,false
+5,Electronics,Laptops,LAP-002,52,899.99,0,46799.48,30,false
+5,Electronics,Tablets,TAB-001,85,599.99,10,45999.15,50,false
+5,Electronics,Tablets,TAB-002,70,449.99,0,31499.30,40,false
+5,Apparel,T-Shirts,TSH-BLK-M,168,29.99,0,5038.32,140,false
+5,Apparel,T-Shirts,TSH-WHT-L,122,29.99,0,3658.78,110,false
+5,Apparel,Jeans,JNS-BLU-32,98,79.99,0,7839.02,75,false
+5,Apparel,Jeans,JNS-BLK-34,85,79.99,10,6079.24,60,false
+5,Home,Kitchen Kits,KIT-001,60,149.99,0,8999.40,40,false
+5,Home,Kitchen Kits,KIT-002,48,199.99,5,8799.53,32,false
+6,Electronics,Laptops,LAP-001,58,1299.99,0,75399.42,32,false
+6,Electronics,Laptops,LAP-002,50,899.99,10,40499.50,28,false
+6,Electronics,Tablets,TAB-001,82,599.99,0,49199.18,48,false
+6,Electronics,Tablets,TAB-002,68,449.99,10,27599.42,38,false
+6,Apparel,T-Shirts,TSH-BLK-M,162,29.99,5,4398.39,132,false
+6,Apparel,T-Shirts,TSH-WHT-L,118,29.99,0,3538.82,102,false
+6,Apparel,Jeans,JNS-BLU-32,95,79.99,5,7039.06,72,false
+6,Apparel,Jeans,JNS-BLK-34,82,79.99,0,6399.18,58,false
+6,Home,Kitchen Kits,KIT-001,58,149.99,10,7849.42,38,false
+6,Home,Kitchen Kits,KIT-002,46,199.99,0,9199.54,30,false
+7,Electronics,Laptops,LAP-001,65,1299.99,10,79249.35,30,true
+7,Electronics,Laptops,LAP-002,58,899.99,0,52199.42,25,true
+7,Electronics,Tablets,TAB-001,95,599.99,15,50999.28,45,true
+7,Electronics,Tablets,TAB-002,78,449.99,0,35099.22,35,true
+7,Apparel,T-Shirts,TSH-BLK-M,185,29.99,0,5548.15,120,true
+7,Apparel,T-Shirts,TSH-WHT-L,135,29.99,10,3648.73,95,true
+7,Apparel,Jeans,JNS-BLU-32,108,79.99,0,8638.92,68,true
+7,Apparel,Jeans,JNS-BLK-34,92,79.99,5,6739.16,55,true
+7,Home,Kitchen Kits,KIT-001,68,149.99,0,10199.32,35,true
+7,Home,Kitchen Kits,KIT-002,55,199.99,10,9799.45,28,true
+8,Electronics,Laptops,LAP-001,62,1299.99,0,80599.38,28,false
+8,Electronics,Laptops,LAP-002,55,899.99,10,44499.48,24,false
+8,Electronics,Tablets,TAB-001,88,599.99,0,52799.12,42,false
+8,Electronics,Tablets,TAB-002,72,449.99,10,29399.35,32,false
+8,Apparel,T-Shirts,TSH-BLK-M,172,29.99,0,5158.28,115,false
+8,Apparel,T-Shirts,TSH-WHT-L,128,29.99,0,3838.72,98,false
+8,Apparel,Jeans,JNS-BLU-32,102,79.99,10,7359.08,65,false
+8,Apparel,Jeans,JNS-BLK-34,88,79.99,0,6799.12,52,false
+8,Home,Kitchen Kits,KIT-001,62,149.99,5,8324.42,32,false
+8,Home,Kitchen Kits,KIT-002,50,199.99,0,9999.50,26,false
+9,Electronics,Laptops,LAP-001,68,1299.99,5,83249.32,25,false
+9,Electronics,Laptops,LAP-002,60,899.99,0,53999.40,22,false
+9,Electronics,Tablets,TAB-001,92,599.99,10,49399.08,40,false
+9,Electronics,Tablets,TAB-002,75,449.99,0,33749.25,30,false
+9,Apparel,T-Shirts,TSH-BLK-M,178,29.99,10,4798.22,108,false
+9,Apparel,T-Shirts,TSH-WHT-L,132,29.99,0,3958.68,92,false
+9,Apparel,Jeans,JNS-BLU-32,105,79.99,0,8398.95,62,false
+9,Apparel,Jeans,JNS-BLK-34,90,79.99,10,6479.10,50,false
+9,Home,Kitchen Kits,KIT-001,65,149.99,0,9749.35,30,false
+9,Home,Kitchen Kits,KIT-002,52,199.99,10,9399.48,24,false
+10,Electronics,Laptops,LAP-001,72,1299.99,10,87299.28,22,false
+10,Electronics,Laptops,LAP-002,65,899.99,0,58499.35,20,false
+10,Electronics,Tablets,TAB-001,98,599.99,0,58798.98,38,false
+10,Electronics,Tablets,TAB-002,80,449.99,10,31499.20,28,false
+10,Apparel,T-Shirts,TSH-BLK-M,188,29.99,0,5638.12,100,false
+10,Apparel,T-Shirts,TSH-WHT-L,140,29.99,5,3823.63,88,false
+10,Apparel,Jeans,JNS-BLU-32,112,79.99,10,8039.00,58,false
+10,Apparel,Jeans,JNS-BLK-34,95,79.99,0,7599.05,48,false
+10,Home,Kitchen Kits,KIT-001,70,149.99,10,9449.30,28,false
+10,Home,Kitchen Kits,KIT-002,55,199.99,0,10999.45,22,false
+11,Electronics,Laptops,LAP-001,75,1299.99,0,97499.25,20,true
+11,Electronics,Laptops,LAP-002,68,899.99,10,52699.32,18,true
+11,Electronics,Tablets,TAB-001,102,599.99,15,54748.95,35,true
+11,Electronics,Tablets,TAB-002,85,449.99,0,38249.15,25,true
+11,Apparel,T-Shirts,TSH-BLK-M,195,29.99,0,5848.05,95,true
+11,Apparel,T-Shirts,TSH-WHT-L,145,29.99,10,3873.68,82,true
+11,Apparel,Jeans,JNS-BLU-32,118,79.99,0,9438.82,55,true
+11,Apparel,Jeans,JNS-BLK-34,98,79.99,10,7039.02,45,true
+11,Home,Kitchen Kits,KIT-001,75,149.99,0,11249.25,25,true
+11,Home,Kitchen Kits,KIT-002,58,199.99,10,10399.38,20,true
+12,Electronics,Laptops,LAP-001,80,1299.99,15,97499.20,18,false
+12,Electronics,Laptops,LAP-002,72,899.99,0,62399.28,16,false
+12,Electronics,Tablets,TAB-001,108,599.99,0,64798.92,32,false
+12,Electronics,Tablets,TAB-002,88,449.99,10,34799.12,24,false
+12,Apparel,T-Shirts,TSH-BLK-M,205,29.99,0,6147.95,88,false
+12,Apparel,T-Shirts,TSH-WHT-L,152,29.99,0,4558.48,78,false
+12,Apparel,Jeans,JNS-BLU-32,125,79.99,5,9048.75,52,false
+12,Apparel,Jeans,JNS-BLK-34,105,79.99,0,8398.95,42,false
+12,Home,Kitchen Kits,KIT-001,78,149.99,10,10499.22,24,false
+12,Home,Kitchen Kits,KIT-002,60,199.99,0,11999.40,20,false

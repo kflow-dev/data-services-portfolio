@@ -10,13 +10,63 @@
 
 import { Route as rootRouteImport } from './routes/__root'
 import { Route as IndexRouteImport } from './routes/index'
+import { Route as AppsSocialtracesRouteImport } from './routes/apps/socialtraces'
+import { Route as AppsSkuForecastRouteImport } from './routes/apps/sku-forecast'
+import { Route as AppsSkillsplanRouteImport } from './routes/apps/skillsplan'
+import { Route as AppsSegmentationRouteImport } from './routes/apps/segmentation'
+import { Route as AppsScitubbiesRouteImport } from './routes/apps/scitubbies'
 import { Route as AppsRagRouteImport } from './routes/apps/rag'
 import { Route as AppsPapieRouteImport } from './routes/apps/papie'
+import { Route as AppsMywardrobeRouteImport } from './routes/apps/mywardrobe'
+import { Route as AppsMysmartdietRouteImport } from './routes/apps/mysmartdiet'
+import { Route as AppsMynexthomeRouteImport } from './routes/apps/mynexthome'
+import { Route as AppsMymedicineRouteImport } from './routes/apps/mymedicine'
+import { Route as AppsMylocalradarRouteImport } from './routes/apps/mylocalradar'
+import { Route as AppsJobpromisRouteImport } from './routes/apps/jobpromis'
+import { Route as AppsJobminderRouteImport } from './routes/apps/jobminder'
 import { Route as AppsHotnews4uRouteImport } from './routes/apps/hotnews4u'
+import { Route as AppsEmagazzineRouteImport } from './routes/apps/emagazzine'
+import { Route as AppsEbooksRouteImport } from './routes/apps/ebooks'
+import { Route as AppsDriftMonitorRouteImport } from './routes/apps/drift-monitor'
+import { Route as AppsDeclarativeSearchRouteImport } from './routes/apps/declarative-search'
+import { Route as AppsDatalabAasRouteImport } from './routes/apps/datalab-aas'
+import { Route as AppsCooldrinksRouteImport } from './routes/apps/cooldrinks'
+import { Route as AppsCloudMlEstimatorRouteImport } from './routes/apps/cloud-ml-estimator'
+import { Route as AppsChapRouteImport } from './routes/apps/chap'
+import { Route as AppsAuctionlabRouteImport } from './routes/apps/auctionlab'
+import { Route as AppsAssetmanagerRouteImport } from './routes/apps/assetmanager'
+import { Route as AppsAifluentRouteImport } from './routes/apps/aifluent'
+import { Route as AppsRecommenderSlugRouteImport } from './routes/apps/recommender.$slug'
+import { Route as AppsGenericSlugRouteImport } from './routes/apps/generic.$slug'
 
 const IndexRoute = IndexRouteImport.update({
   id: '/',
   path: '/',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const AppsSocialtracesRoute = AppsSocialtracesRouteImport.update({
+  id: '/apps/socialtraces',
+  path: '/apps/socialtraces',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const AppsSkuForecastRoute = AppsSkuForecastRouteImport.update({
+  id: '/apps/sku-forecast',
+  path: '/apps/sku-forecast',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const AppsSkillsplanRoute = AppsSkillsplanRouteImport.update({
+  id: '/apps/skillsplan',
+  path: '/apps/skillsplan',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const AppsSegmentationRoute = AppsSegmentationRouteImport.update({
+  id: '/apps/segmentation',
+  path: '/apps/segmentation',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const AppsScitubbiesRoute = AppsScitubbiesRouteImport.update({
+  id: '/apps/scitubbies',
+  path: '/apps/scitubbies',
   getParentRoute: () => rootRouteImport,
 } as any)
 const AppsRagRoute = AppsRagRouteImport.update({
@@ -29,44 +79,332 @@ const AppsPapieRoute = AppsPapieRouteImport.update({
   path: '/apps/papie',
   getParentRoute: () => rootRouteImport,
 } as any)
+const AppsMywardrobeRoute = AppsMywardrobeRouteImport.update({
+  id: '/apps/mywardrobe',
+  path: '/apps/mywardrobe',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const AppsMysmartdietRoute = AppsMysmartdietRouteImport.update({
+  id: '/apps/mysmartdiet',
+  path: '/apps/mysmartdiet',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const AppsMynexthomeRoute = AppsMynexthomeRouteImport.update({
+  id: '/apps/mynexthome',
+  path: '/apps/mynexthome',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const AppsMymedicineRoute = AppsMymedicineRouteImport.update({
+  id: '/apps/mymedicine',
+  path: '/apps/mymedicine',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const AppsMylocalradarRoute = AppsMylocalradarRouteImport.update({
+  id: '/apps/mylocalradar',
+  path: '/apps/mylocalradar',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const AppsJobpromisRoute = AppsJobpromisRouteImport.update({
+  id: '/apps/jobpromis',
+  path: '/apps/jobpromis',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const AppsJobminderRoute = AppsJobminderRouteImport.update({
+  id: '/apps/jobminder',
+  path: '/apps/jobminder',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const AppsHotnews4uRoute = AppsHotnews4uRouteImport.update({
   id: '/apps/hotnews4u',
   path: '/apps/hotnews4u',
   getParentRoute: () => rootRouteImport,
 } as any)
+const AppsEmagazzineRoute = AppsEmagazzineRouteImport.update({
+  id: '/apps/emagazzine',
+  path: '/apps/emagazzine',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const AppsEbooksRoute = AppsEbooksRouteImport.update({
+  id: '/apps/ebooks',
+  path: '/apps/ebooks',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const AppsDriftMonitorRoute = AppsDriftMonitorRouteImport.update({
+  id: '/apps/drift-monitor',
+  path: '/apps/drift-monitor',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const AppsDeclarativeSearchRoute = AppsDeclarativeSearchRouteImport.update({
+  id: '/apps/declarative-search',
+  path: '/apps/declarative-search',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const AppsDatalabAasRoute = AppsDatalabAasRouteImport.update({
+  id: '/apps/datalab-aas',
+  path: '/apps/datalab-aas',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const AppsCooldrinksRoute = AppsCooldrinksRouteImport.update({
+  id: '/apps/cooldrinks',
+  path: '/apps/cooldrinks',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const AppsCloudMlEstimatorRoute = AppsCloudMlEstimatorRouteImport.update({
+  id: '/apps/cloud-ml-estimator',
+  path: '/apps/cloud-ml-estimator',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const AppsChapRoute = AppsChapRouteImport.update({
+  id: '/apps/chap',
+  path: '/apps/chap',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const AppsAuctionlabRoute = AppsAuctionlabRouteImport.update({
+  id: '/apps/auctionlab',
+  path: '/apps/auctionlab',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const AppsAssetmanagerRoute = AppsAssetmanagerRouteImport.update({
+  id: '/apps/assetmanager',
+  path: '/apps/assetmanager',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const AppsAifluentRoute = AppsAifluentRouteImport.update({
+  id: '/apps/aifluent',
+  path: '/apps/aifluent',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const AppsRecommenderSlugRoute = AppsRecommenderSlugRouteImport.update({
+  id: '/apps/recommender/$slug',
+  path: '/apps/recommender/$slug',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const AppsGenericSlugRoute = AppsGenericSlugRouteImport.update({
+  id: '/apps/generic/$slug',
+  path: '/apps/generic/$slug',
+  getParentRoute: () => rootRouteImport,
+} as any)
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
+  '/apps/aifluent': typeof AppsAifluentRoute
+  '/apps/assetmanager': typeof AppsAssetmanagerRoute
+  '/apps/auctionlab': typeof AppsAuctionlabRoute
+  '/apps/chap': typeof AppsChapRoute
+  '/apps/cloud-ml-estimator': typeof AppsCloudMlEstimatorRoute
+  '/apps/cooldrinks': typeof AppsCooldrinksRoute
+  '/apps/datalab-aas': typeof AppsDatalabAasRoute
+  '/apps/declarative-search': typeof AppsDeclarativeSearchRoute
+  '/apps/drift-monitor': typeof AppsDriftMonitorRoute
+  '/apps/ebooks': typeof AppsEbooksRoute
+  '/apps/emagazzine': typeof AppsEmagazzineRoute
   '/apps/hotnews4u': typeof AppsHotnews4uRoute
+  '/apps/jobminder': typeof AppsJobminderRoute
+  '/apps/jobpromis': typeof AppsJobpromisRoute
+  '/apps/mylocalradar': typeof AppsMylocalradarRoute
+  '/apps/mymedicine': typeof AppsMymedicineRoute
+  '/apps/mynexthome': typeof AppsMynexthomeRoute
+  '/apps/mysmartdiet': typeof AppsMysmartdietRoute
+  '/apps/mywardrobe': typeof AppsMywardrobeRoute
   '/apps/papie': typeof AppsPapieRoute
   '/apps/rag': typeof AppsRagRoute
+  '/apps/scitubbies': typeof AppsScitubbiesRoute
+  '/apps/segmentation': typeof AppsSegmentationRoute
+  '/apps/skillsplan': typeof AppsSkillsplanRoute
+  '/apps/sku-forecast': typeof AppsSkuForecastRoute
+  '/apps/socialtraces': typeof AppsSocialtracesRoute
+  '/apps/generic/$slug': typeof AppsGenericSlugRoute
+  '/apps/recommender/$slug': typeof AppsRecommenderSlugRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
+  '/apps/aifluent': typeof AppsAifluentRoute
+  '/apps/assetmanager': typeof AppsAssetmanagerRoute
+  '/apps/auctionlab': typeof AppsAuctionlabRoute
+  '/apps/chap': typeof AppsChapRoute
+  '/apps/cloud-ml-estimator': typeof AppsCloudMlEstimatorRoute
+  '/apps/cooldrinks': typeof AppsCooldrinksRoute
+  '/apps/datalab-aas': typeof AppsDatalabAasRoute
+  '/apps/declarative-search': typeof AppsDeclarativeSearchRoute
+  '/apps/drift-monitor': typeof AppsDriftMonitorRoute
+  '/apps/ebooks': typeof AppsEbooksRoute
+  '/apps/emagazzine': typeof AppsEmagazzineRoute
   '/apps/hotnews4u': typeof AppsHotnews4uRoute
+  '/apps/jobminder': typeof AppsJobminderRoute
+  '/apps/jobpromis': typeof AppsJobpromisRoute
+  '/apps/mylocalradar': typeof AppsMylocalradarRoute
+  '/apps/mymedicine': typeof AppsMymedicineRoute
+  '/apps/mynexthome': typeof AppsMynexthomeRoute
+  '/apps/mysmartdiet': typeof AppsMysmartdietRoute
+  '/apps/mywardrobe': typeof AppsMywardrobeRoute
   '/apps/papie': typeof AppsPapieRoute
   '/apps/rag': typeof AppsRagRoute
+  '/apps/scitubbies': typeof AppsScitubbiesRoute
+  '/apps/segmentation': typeof AppsSegmentationRoute
+  '/apps/skillsplan': typeof AppsSkillsplanRoute
+  '/apps/sku-forecast': typeof AppsSkuForecastRoute
+  '/apps/socialtraces': typeof AppsSocialtracesRoute
+  '/apps/generic/$slug': typeof AppsGenericSlugRoute
+  '/apps/recommender/$slug': typeof AppsRecommenderSlugRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
+  '/apps/aifluent': typeof AppsAifluentRoute
+  '/apps/assetmanager': typeof AppsAssetmanagerRoute
+  '/apps/auctionlab': typeof AppsAuctionlabRoute
+  '/apps/chap': typeof AppsChapRoute
+  '/apps/cloud-ml-estimator': typeof AppsCloudMlEstimatorRoute
+  '/apps/cooldrinks': typeof AppsCooldrinksRoute
+  '/apps/datalab-aas': typeof AppsDatalabAasRoute
+  '/apps/declarative-search': typeof AppsDeclarativeSearchRoute
+  '/apps/drift-monitor': typeof AppsDriftMonitorRoute
+  '/apps/ebooks': typeof AppsEbooksRoute
+  '/apps/emagazzine': typeof AppsEmagazzineRoute
   '/apps/hotnews4u': typeof AppsHotnews4uRoute
+  '/apps/jobminder': typeof AppsJobminderRoute
+  '/apps/jobpromis': typeof AppsJobpromisRoute
+  '/apps/mylocalradar': typeof AppsMylocalradarRoute
+  '/apps/mymedicine': typeof AppsMymedicineRoute
+  '/apps/mynexthome': typeof AppsMynexthomeRoute
+  '/apps/mysmartdiet': typeof AppsMysmartdietRoute
+  '/apps/mywardrobe': typeof AppsMywardrobeRoute
   '/apps/papie': typeof AppsPapieRoute
   '/apps/rag': typeof AppsRagRoute
+  '/apps/scitubbies': typeof AppsScitubbiesRoute
+  '/apps/segmentation': typeof AppsSegmentationRoute
+  '/apps/skillsplan': typeof AppsSkillsplanRoute
+  '/apps/sku-forecast': typeof AppsSkuForecastRoute
+  '/apps/socialtraces': typeof AppsSocialtracesRoute
+  '/apps/generic/$slug': typeof AppsGenericSlugRoute
+  '/apps/recommender/$slug': typeof AppsRecommenderSlugRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
-  fullPaths: '/' | '/apps/hotnews4u' | '/apps/papie' | '/apps/rag'
+  fullPaths:
+    | '/'
+    | '/apps/aifluent'
+    | '/apps/assetmanager'
+    | '/apps/auctionlab'
+    | '/apps/chap'
+    | '/apps/cloud-ml-estimator'
+    | '/apps/cooldrinks'
+    | '/apps/datalab-aas'
+    | '/apps/declarative-search'
+    | '/apps/drift-monitor'
+    | '/apps/ebooks'
+    | '/apps/emagazzine'
+    | '/apps/hotnews4u'
+    | '/apps/jobminder'
+    | '/apps/jobpromis'
+    | '/apps/mylocalradar'
+    | '/apps/mymedicine'
+    | '/apps/mynexthome'
+    | '/apps/mysmartdiet'
+    | '/apps/mywardrobe'
+    | '/apps/papie'
+    | '/apps/rag'
+    | '/apps/scitubbies'
+    | '/apps/segmentation'
+    | '/apps/skillsplan'
+    | '/apps/sku-forecast'
+    | '/apps/socialtraces'
+    | '/apps/generic/$slug'
+    | '/apps/recommender/$slug'
   fileRoutesByTo: FileRoutesByTo
-  to: '/' | '/apps/hotnews4u' | '/apps/papie' | '/apps/rag'
-  id: '__root__' | '/' | '/apps/hotnews4u' | '/apps/papie' | '/apps/rag'
+  to:
+    | '/'
+    | '/apps/aifluent'
+    | '/apps/assetmanager'
+    | '/apps/auctionlab'
+    | '/apps/chap'
+    | '/apps/cloud-ml-estimator'
+    | '/apps/cooldrinks'
+    | '/apps/datalab-aas'
+    | '/apps/declarative-search'
+    | '/apps/drift-monitor'
+    | '/apps/ebooks'
+    | '/apps/emagazzine'
+    | '/apps/hotnews4u'
+    | '/apps/jobminder'
+    | '/apps/jobpromis'
+    | '/apps/mylocalradar'
+    | '/apps/mymedicine'
+    | '/apps/mynexthome'
+    | '/apps/mysmartdiet'
+    | '/apps/mywardrobe'
+    | '/apps/papie'
+    | '/apps/rag'
+    | '/apps/scitubbies'
+    | '/apps/segmentation'
+    | '/apps/skillsplan'
+    | '/apps/sku-forecast'
+    | '/apps/socialtraces'
+    | '/apps/generic/$slug'
+    | '/apps/recommender/$slug'
+  id:
+    | '__root__'
+    | '/'
+    | '/apps/aifluent'
+    | '/apps/assetmanager'
+    | '/apps/auctionlab'
+    | '/apps/chap'
+    | '/apps/cloud-ml-estimator'
+    | '/apps/cooldrinks'
+    | '/apps/datalab-aas'
+    | '/apps/declarative-search'
+    | '/apps/drift-monitor'
+    | '/apps/ebooks'
+    | '/apps/emagazzine'
+    | '/apps/hotnews4u'
+    | '/apps/jobminder'
+    | '/apps/jobpromis'
+    | '/apps/mylocalradar'
+    | '/apps/mymedicine'
+    | '/apps/mynexthome'
+    | '/apps/mysmartdiet'
+    | '/apps/mywardrobe'
+    | '/apps/papie'
+    | '/apps/rag'
+    | '/apps/scitubbies'
+    | '/apps/segmentation'
+    | '/apps/skillsplan'
+    | '/apps/sku-forecast'
+    | '/apps/socialtraces'
+    | '/apps/generic/$slug'
+    | '/apps/recommender/$slug'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
+  AppsAifluentRoute: typeof AppsAifluentRoute
+  AppsAssetmanagerRoute: typeof AppsAssetmanagerRoute
+  AppsAuctionlabRoute: typeof AppsAuctionlabRoute
+  AppsChapRoute: typeof AppsChapRoute
+  AppsCloudMlEstimatorRoute: typeof AppsCloudMlEstimatorRoute
+  AppsCooldrinksRoute: typeof AppsCooldrinksRoute
+  AppsDatalabAasRoute: typeof AppsDatalabAasRoute
+  AppsDeclarativeSearchRoute: typeof AppsDeclarativeSearchRoute
+  AppsDriftMonitorRoute: typeof AppsDriftMonitorRoute
+  AppsEbooksRoute: typeof AppsEbooksRoute
+  AppsEmagazzineRoute: typeof AppsEmagazzineRoute
   AppsHotnews4uRoute: typeof AppsHotnews4uRoute
+  AppsJobminderRoute: typeof AppsJobminderRoute
+  AppsJobpromisRoute: typeof AppsJobpromisRoute
+  AppsMylocalradarRoute: typeof AppsMylocalradarRoute
+  AppsMymedicineRoute: typeof AppsMymedicineRoute
+  AppsMynexthomeRoute: typeof AppsMynexthomeRoute
+  AppsMysmartdietRoute: typeof AppsMysmartdietRoute
+  AppsMywardrobeRoute: typeof AppsMywardrobeRoute
   AppsPapieRoute: typeof AppsPapieRoute
   AppsRagRoute: typeof AppsRagRoute
+  AppsScitubbiesRoute: typeof AppsScitubbiesRoute
+  AppsSegmentationRoute: typeof AppsSegmentationRoute
+  AppsSkillsplanRoute: typeof AppsSkillsplanRoute
+  AppsSkuForecastRoute: typeof AppsSkuForecastRoute
+  AppsSocialtracesRoute: typeof AppsSocialtracesRoute
+  AppsGenericSlugRoute: typeof AppsGenericSlugRoute
+  AppsRecommenderSlugRoute: typeof AppsRecommenderSlugRoute
 }
 
 declare module '@tanstack/react-router' {
@@ -76,6 +414,41 @@ declare module '@tanstack/react-router' {
       path: '/'
       fullPath: '/'
       preLoaderRoute: typeof IndexRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/apps/socialtraces': {
+      id: '/apps/socialtraces'
+      path: '/apps/socialtraces'
+      fullPath: '/apps/socialtraces'
+      preLoaderRoute: typeof AppsSocialtracesRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/apps/sku-forecast': {
+      id: '/apps/sku-forecast'
+      path: '/apps/sku-forecast'
+      fullPath: '/apps/sku-forecast'
+      preLoaderRoute: typeof AppsSkuForecastRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/apps/skillsplan': {
+      id: '/apps/skillsplan'
+      path: '/apps/skillsplan'
+      fullPath: '/apps/skillsplan'
+      preLoaderRoute: typeof AppsSkillsplanRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/apps/segmentation': {
+      id: '/apps/segmentation'
+      path: '/apps/segmentation'
+      fullPath: '/apps/segmentation'
+      preLoaderRoute: typeof AppsSegmentationRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/apps/scitubbies': {
+      id: '/apps/scitubbies'
+      path: '/apps/scitubbies'
+      fullPath: '/apps/scitubbies'
+      preLoaderRoute: typeof AppsScitubbiesRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/apps/rag': {
@@ -92,6 +465,55 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof AppsPapieRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/apps/mywardrobe': {
+      id: '/apps/mywardrobe'
+      path: '/apps/mywardrobe'
+      fullPath: '/apps/mywardrobe'
+      preLoaderRoute: typeof AppsMywardrobeRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/apps/mysmartdiet': {
+      id: '/apps/mysmartdiet'
+      path: '/apps/mysmartdiet'
+      fullPath: '/apps/mysmartdiet'
+      preLoaderRoute: typeof AppsMysmartdietRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/apps/mynexthome': {
+      id: '/apps/mynexthome'
+      path: '/apps/mynexthome'
+      fullPath: '/apps/mynexthome'
+      preLoaderRoute: typeof AppsMynexthomeRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/apps/mymedicine': {
+      id: '/apps/mymedicine'
+      path: '/apps/mymedicine'
+      fullPath: '/apps/mymedicine'
+      preLoaderRoute: typeof AppsMymedicineRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/apps/mylocalradar': {
+      id: '/apps/mylocalradar'
+      path: '/apps/mylocalradar'
+      fullPath: '/apps/mylocalradar'
+      preLoaderRoute: typeof AppsMylocalradarRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/apps/jobpromis': {
+      id: '/apps/jobpromis'
+      path: '/apps/jobpromis'
+      fullPath: '/apps/jobpromis'
+      preLoaderRoute: typeof AppsJobpromisRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/apps/jobminder': {
+      id: '/apps/jobminder'
+      path: '/apps/jobminder'
+      fullPath: '/apps/jobminder'
+      preLoaderRoute: typeof AppsJobminderRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/apps/hotnews4u': {
       id: '/apps/hotnews4u'
       path: '/apps/hotnews4u'
@@ -99,14 +521,130 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof AppsHotnews4uRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/apps/emagazzine': {
+      id: '/apps/emagazzine'
+      path: '/apps/emagazzine'
+      fullPath: '/apps/emagazzine'
+      preLoaderRoute: typeof AppsEmagazzineRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/apps/ebooks': {
+      id: '/apps/ebooks'
+      path: '/apps/ebooks'
+      fullPath: '/apps/ebooks'
+      preLoaderRoute: typeof AppsEbooksRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/apps/drift-monitor': {
+      id: '/apps/drift-monitor'
+      path: '/apps/drift-monitor'
+      fullPath: '/apps/drift-monitor'
+      preLoaderRoute: typeof AppsDriftMonitorRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/apps/declarative-search': {
+      id: '/apps/declarative-search'
+      path: '/apps/declarative-search'
+      fullPath: '/apps/declarative-search'
+      preLoaderRoute: typeof AppsDeclarativeSearchRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/apps/datalab-aas': {
+      id: '/apps/datalab-aas'
+      path: '/apps/datalab-aas'
+      fullPath: '/apps/datalab-aas'
+      preLoaderRoute: typeof AppsDatalabAasRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/apps/cooldrinks': {
+      id: '/apps/cooldrinks'
+      path: '/apps/cooldrinks'
+      fullPath: '/apps/cooldrinks'
+      preLoaderRoute: typeof AppsCooldrinksRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/apps/cloud-ml-estimator': {
+      id: '/apps/cloud-ml-estimator'
+      path: '/apps/cloud-ml-estimator'
+      fullPath: '/apps/cloud-ml-estimator'
+      preLoaderRoute: typeof AppsCloudMlEstimatorRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/apps/chap': {
+      id: '/apps/chap'
+      path: '/apps/chap'
+      fullPath: '/apps/chap'
+      preLoaderRoute: typeof AppsChapRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/apps/auctionlab': {
+      id: '/apps/auctionlab'
+      path: '/apps/auctionlab'
+      fullPath: '/apps/auctionlab'
+      preLoaderRoute: typeof AppsAuctionlabRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/apps/assetmanager': {
+      id: '/apps/assetmanager'
+      path: '/apps/assetmanager'
+      fullPath: '/apps/assetmanager'
+      preLoaderRoute: typeof AppsAssetmanagerRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/apps/aifluent': {
+      id: '/apps/aifluent'
+      path: '/apps/aifluent'
+      fullPath: '/apps/aifluent'
+      preLoaderRoute: typeof AppsAifluentRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/apps/recommender/$slug': {
+      id: '/apps/recommender/$slug'
+      path: '/apps/recommender/$slug'
+      fullPath: '/apps/recommender/$slug'
+      preLoaderRoute: typeof AppsRecommenderSlugRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/apps/generic/$slug': {
+      id: '/apps/generic/$slug'
+      path: '/apps/generic/$slug'
+      fullPath: '/apps/generic/$slug'
+      preLoaderRoute: typeof AppsGenericSlugRouteImport
+      parentRoute: typeof rootRouteImport
+    }
   }
 }
 
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
+  AppsAifluentRoute: AppsAifluentRoute,
+  AppsAssetmanagerRoute: AppsAssetmanagerRoute,
+  AppsAuctionlabRoute: AppsAuctionlabRoute,
+  AppsChapRoute: AppsChapRoute,
+  AppsCloudMlEstimatorRoute: AppsCloudMlEstimatorRoute,
+  AppsCooldrinksRoute: AppsCooldrinksRoute,
+  AppsDatalabAasRoute: AppsDatalabAasRoute,
+  AppsDeclarativeSearchRoute: AppsDeclarativeSearchRoute,
+  AppsDriftMonitorRoute: AppsDriftMonitorRoute,
+  AppsEbooksRoute: AppsEbooksRoute,
+  AppsEmagazzineRoute: AppsEmagazzineRoute,
   AppsHotnews4uRoute: AppsHotnews4uRoute,
+  AppsJobminderRoute: AppsJobminderRoute,
+  AppsJobpromisRoute: AppsJobpromisRoute,
+  AppsMylocalradarRoute: AppsMylocalradarRoute,
+  AppsMymedicineRoute: AppsMymedicineRoute,
+  AppsMynexthomeRoute: AppsMynexthomeRoute,
+  AppsMysmartdietRoute: AppsMysmartdietRoute,
+  AppsMywardrobeRoute: AppsMywardrobeRoute,
   AppsPapieRoute: AppsPapieRoute,
   AppsRagRoute: AppsRagRoute,
+  AppsScitubbiesRoute: AppsScitubbiesRoute,
+  AppsSegmentationRoute: AppsSegmentationRoute,
+  AppsSkillsplanRoute: AppsSkillsplanRoute,
+  AppsSkuForecastRoute: AppsSkuForecastRoute,
+  AppsSocialtracesRoute: AppsSocialtracesRoute,
+  AppsGenericSlugRoute: AppsGenericSlugRoute,
+  AppsRecommenderSlugRoute: AppsRecommenderSlugRoute,
 }
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)

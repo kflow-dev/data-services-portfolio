@@ -4,3 +4,9 @@ pandas>=2.2
 numpy>=1.26
 typer>=0.12
 python-dotenv>=1.0
+
+# CoolDrinks - Advanced ML dependencies
+tensorflow>=2.15
+tensorflow-recommenders>=0.7
+implicit>=0.7
+transformers>=4.35

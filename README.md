@@ -191,12 +191,185 @@ The other apps are listed in the dashboard as scaffolds — each has a folder un
 
 ## Run locally
 
+### Quick Start
+
 ```bash
-bun install && bun run dev -- --port 7000
-python apps/hotnews4u/cli.py recommend --interests "AI, startups"
-streamlit run apps/hotnews4u/streamlit_app.py --server.port 3000
-docker compose up --build   # full stack behind nginx
+# Install Python dependencies
+pip install streamlit scikit-learn pandas numpy typer scipy
+
+# Install frontend dependencies
+bun install
+
+# Frontend dev server (dashboard at :7000)
+bun run dev -- --port 7000
+
+# Individual backend app (e.g., sku-forecast at :3000)
+streamlit run apps/sku-forecast/streamlit_app.py --server.port 3000
 ```
+
+### CLI Usage (All Apps)
+
+Each app supports CLI commands via Typer:
+
+```bash
+# See all available commands for any app
+python apps/[app-name]/cli.py --help
+
+# ============================================================================
+# FORECASTERS
+# ============================================================================
+
+# SKU Forecaster (hierarchical demand forecasting)
+python apps/sku-forecast/cli.py forecast "Electronics" "Laptops" --weeks 12
+python apps/sku-forecast/cli.py evaluate
+python apps/sku-forecast/cli.py train --save-path models/
+
+# ============================================================================
+# CUSTOMER SEGMENTATION (DATA PRODUCTS)
+# ============================================================================
+
+# Customer Segmentation (KMeans clustering)
+python apps/segmentation/cli.py create-personas --count 4
+python apps/segmentation/cli.py representative-customers 0 --count 5
+python apps/segmentation/cli.py evaluate
+
+# Drift Monitor (statistical drift detection)
+python apps/drift-monitor/cli.py check-drift demo_model data/synthetic
+python apps/drift-monitor/cli.py generate-baseline -n 1000
+python apps/drift-monitor/cli.py alert-config demo_model -p 0.01
+
+# ============================================================================
+# RECOMMENDERS
+# ============================================================================
+
+# HotNews4U (LLM-ranked news)
+python apps/hotnews4u/cli.py recommend --interests "AI, startups"
+python apps/hotnews4u/cli.py list-categories
+python apps/hotnews4u/cli.py generate-data -n 30
+
+# MyWardrobe (outfit recommendations)
+python apps/mywardrobe/cli.py recommend "business meeting" --season spring
+
+# Cooldrinks (beverage recommendations)
+python apps/cooldrinks/cli.py recommend --context "summer,outdoor"
+
+# EBooks (book recommendations)
+python apps/ebooks/cli.py recommend --genre "sci-fi"
+
+# SciTubbies (paper recommendations)
+python apps/scitubbies/cli.py recommend --field "machine-learning"
+
+# JobPromis (job matching)
+python apps/jobpromis/cli.py match --job-id JD001
+
+# MyNextHome (real estate recommendations)
+python apps/mynexthome/cli.py recommend --budget 500000 --location "NYC"
+
+# MyMedicine (travel medicine)
+python apps/mymedicine/cli.py check-interaction --drugs "aspirin,warfarin"
+
+# ============================================================================
+# AGENT PLATFORMS
+# ============================================================================
+
+# CHAP (multi-agent simulation)
+python apps/chap/cli.py simulate traffic --agents 100 --steps 60
+
+# AI Fluent (career path recommendations)
+python apps/aifluent/cli.py recommend --role "Data Scientist"
+
+# ============================================================================
+# CALCULATORS
+# ============================================================================
+
+# Cloud ML Estimator (cost estimation)
+python apps/cloud-ml-estimator/cli.py estimate --model-size 1B --epochs 10
+```
+
+### Streamlit UI Usage
+
+```bash
+# Run individual app
+streamlit run apps/sku-forecast/streamlit_app.py
+streamlit run apps/segmentation/streamlit_app.py
+streamlit run apps/hotnews4u/streamlit_app.py
+
+# Run with custom port
+streamlit run apps/sku-forecast/streamlit_app.py --server.port 8501
+```
+
+### Jupyter Notebook Usage
+
+```bash
+# Run notebook for any app
+jupyter notebook apps/sku-forecast/notebooks/demand_forecasting_example.ipynb
+jupyter notebook apps/segmentation/notebooks/customer_segmentation_example.ipynb
+jupyter notebook apps/hotnews4u/notebooks/news_recommendation_example.ipynb
+
+# Start jupyter and navigate to:
+jupyter notebook
+# Then open: apps/[app-name]/notebooks/[notebook-name].ipynb
+```
+
+### Running All Apps with Docker
+
+```bash
+# Build and start all services
+docker compose up --build
+
+# View logs
+docker compose logs -f
+
+# Stop all services
+docker compose down
+```
+
+## MLOps Template
+
+All apps follow a consistent MLOps pattern:
+
+```
+[app-name]/
+├── cli.py              # Typer CLI with commands
+├── streamlit_app.py    # Streamlit web UI
+├── catalog.py          # Public API library (ML logic)
+├── README.md           # App-specific documentation
+└── [data files]/
+```
+
+**Key components:**
+- **cli.py**: Command-line interface with data loading, training, and prediction
+- **streamlit_app.py**: Interactive web UI for end users
+- **catalog.py**: Reusable library class following MLOps best practices
+- **Data**: Synthetic or real datasets in `data/synthetic/`
+
+### App Status
+
+**Fully implemented with real ML** (working algorithms, synthetic data):
+- `sku-forecast` - Hierarchical demand forecasting (Gradient Boosting)
+- `segmentation` - Customer clustering (KMeans + Silhouette)
+- `drift-monitor` - Statistical drift detection (KS-test, PSI)
+
+**Scaffold apps** (CLI + Streamlit UI, ready for ML implementation):
+- `hotnews4u`, `mywardrobe`, `cooldrinks`, `mynexthome`, `mymedicine`
+- `ebooks`, `scitubbies`, `jobpromis`
+- `datalab-aas`, `jobminder`
+- `rag`, `papie` (live with AI Gateway)
+- `declarative-search`, `socialtraces`, `assetmanager`, `mylocalradar`
+- `aifluent`, `chap`
+- `auctionlab`, `emagazzine`, `skillsplan`, `mysmartdiet`
+- `cloud-ml-estimator`
+
+| Category | Apps | ML Status |
+|----------|------|-----------|
+| **Recommenders** | hotnews4u (live), mywardrobe, cooldrinks, mynexthome, mymedicine, ebooks, scitubbies, jobpromis | scaffold |
+| **Data Products** | drift-monitor, datalab-aas, segmentation | drift-monitor, segmentation: implemented |
+| **Chatbots** | papie (live), jobminder | papie: live |
+| **Forecasters** | sku-forecast | implemented |
+| **Search & Info** | rag (live), declarative-search, socialtraces, assetmanager, mylocalradar | rag: live |
+| **Agent Platforms** | aifluent, chap | scaffold |
+| **Simulators/Optimizers** | auctionlab, emagazzine, skillsplan, mysmartdiet | scaffold |
+| **Calculators** | cloud-ml-estimator | scaffold |
 
 ## Deploy to a self-managed VPS (Ubuntu 22.04)
 

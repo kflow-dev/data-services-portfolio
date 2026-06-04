@@ -1,0 +1,51 @@
+user_id,name,current_role,current_company,years_experience,location,target_role,target_role_years
+0,User_0,Full Stack Developer,Data Systems,9,New York,AI Researcher,2
+1,User_1,DevOps Engineer,Cloud Solutions,7,Berlin,Full Stack Developer,3
+2,User_2,DevOps Engineer,Startup Inc,11,San Francisco,MLOps Engineer,4
+3,User_3,Product Manager,Startup Inc,14,Berlin,,3
+4,User_4,Solution Architect,AI Labs,8,Amsterdam,,1
+5,User_5,MLOps Engineer,Tech Corp,9,London,Data Scientist,4
+6,User_6,AI Researcher,Cloud Solutions,19,Berlin,Backend Developer,1
+7,User_7,AI Researcher,Tech Corp,8,London,ML Engineer,4
+8,User_8,Product Manager,Cloud Solutions,14,San Francisco,Data Engineer,1
+9,User_9,Solution Architect,Data Systems,0,Berlin,MLOps Engineer,4
+10,User_10,Full Stack Developer,AI Labs,1,Berlin,Backend Developer,1
+11,User_11,AI Researcher,Data Systems,18,Toronto,Backend Developer,4
+12,User_12,Data Engineer,Startup Inc,13,San Francisco,Full Stack Developer,1
+13,User_13,Data Scientist,AI Labs,7,San Francisco,AI Researcher,4
+14,User_14,Solution Architect,Startup Inc,5,New York,Full Stack Developer,1
+15,User_15,AI Researcher,Data Systems,11,Amsterdam,ML Engineer,2
+16,User_16,Solution Architect,Cloud Solutions,14,Berlin,Data Scientist,3
+17,User_17,DevOps Engineer,Startup Inc,13,Berlin,DevOps Engineer,4
+18,User_18,MLOps Engineer,Tech Corp,0,San Francisco,Product Manager,1
+19,User_19,AI Researcher,Cloud Solutions,10,San Francisco,Data Scientist,2
+20,User_20,MLOps Engineer,Cloud Solutions,2,Amsterdam,ML Engineer,4
+21,User_21,ML Engineer,Data Systems,18,San Francisco,,4
+22,User_22,Data Scientist,Data Systems,17,London,DevOps Engineer,4
+23,User_23,Product Manager,AI Labs,19,London,Backend Developer,3
+24,User_24,MLOps Engineer,AI Labs,1,Toronto,Data Scientist,1
+25,User_25,AI Researcher,Tech Corp,6,London,DevOps Engineer,1
+26,User_26,Backend Developer,Cloud Solutions,7,London,Data Engineer,4
+27,User_27,Product Manager,Tech Corp,18,Amsterdam,Full Stack Developer,4
+28,User_28,Product Manager,Tech Corp,14,Berlin,Product Manager,4
+29,User_29,Full Stack Developer,Data Systems,9,London,MLOps Engineer,2
+30,User_30,MLOps Engineer,Tech Corp,0,Toronto,Data Engineer,4
+31,User_31,Backend Developer,Tech Corp,5,San Francisco,Data Scientist,3
+32,User_32,MLOps Engineer,Startup Inc,12,London,Solution Architect,1
+33,User_33,Full Stack Developer,AI Labs,13,Toronto,DevOps Engineer,3
+34,User_34,Data Scientist,AI Labs,2,Amsterdam,Backend Developer,4
+35,User_35,AI Researcher,Cloud Solutions,10,San Francisco,Backend Developer,2
+36,User_36,DevOps Engineer,AI Labs,2,Toronto,Solution Architect,4
+37,User_37,DevOps Engineer,Cloud Solutions,18,London,Data Scientist,4
+38,User_38,MLOps Engineer,Startup Inc,9,Berlin,Backend Developer,4
+39,User_39,Full Stack Developer,AI Labs,14,San Francisco,AI Researcher,4
+40,User_40,Solution Architect,Startup Inc,10,San Francisco,,4
+41,User_41,AI Researcher,AI Labs,14,Berlin,Backend Developer,1
+42,User_42,MLOps Engineer,AI Labs,12,San Francisco,,3
+43,User_43,Solution Architect,Startup Inc,4,London,Product Manager,2
+44,User_44,AI Researcher,Tech Corp,3,San Francisco,AI Researcher,4
+45,User_45,Solution Architect,Tech Corp,12,London,ML Engineer,2
+46,User_46,Product Manager,Tech Corp,8,Berlin,ML Engineer,1
+47,User_47,MLOps Engineer,Tech Corp,16,New York,DevOps Engineer,3
+48,User_48,Full Stack Developer,AI Labs,1,Berlin,AI Researcher,4
+49,User_49,AI Researcher,Data Systems,4,London,Data Engineer,1
